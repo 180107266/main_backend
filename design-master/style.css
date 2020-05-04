@@ -139,12 +139,19 @@ h4 {
 	font-size: 25px;
 }
 
-.sp_around table td{
+.sp_around table td, th{
 	width: 300px;
 }
 
-table td{
-	text-align: center;
+table th {
+  text-align: left;
+  border: none;
+  border-bottom: 4px solid #fed501;
+  color: #009c9b;
+}
+table td {
+	border-bottom: 2px solid #009c9b;
+  
 }
 
 .change {
